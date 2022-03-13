@@ -9,6 +9,8 @@ $dictionary=array(
    'DEVICES_NIGHTMODE_LEVEL' => 'Different brightness and time of day/night',
    'DEVICES_LINK_SWITCH_TIMER_PARAM_ACTION_DELAY_DAY' => 'Turn on for a time (seconds)',
    'DEVICES_LINK_SWITCH_TIMER_PARAM_ACTION_DELAY_NIGHT' => 'Turn on at night for a time (seconds)',
+   'DEVICES_PENETRATION_INTO_THE_ROOM' => 'Проникновение в помещение!',
+   'DEVICES_PROTECTION_DISABLED_SENSOR_IN_OPERATING_STATE' => 'Охрана отключена,датчик в рабочем состоянии',
 );
 
 foreach ($dictionary as $k=>$v) {
