@@ -13,7 +13,8 @@
             'resetNobodysHome'=>array('DESCRIPTION'=>LANG_DEVICES_MOTION_RESET,'_CONFIG_TYPE'=>'yesno','_CONFIG_HELP'=>'SdResetNobodysHome'),
             'timeout'=>array('DESCRIPTION'=>LANG_DEVICES_MOTION_TIMEOUT,'_CONFIG_TYPE'=>'num','_CONFIG_HELP'=>'SdMotionTimeout'),
             'blocked'=>array('DESCRIPTION'=>'Is blocked'),
-			'motionDetected'=>array('DESCRIPTION'=>'Прием статуса с датчика движения'),
+	    'motionDetected'=>array('DESCRIPTION'=>'Прием статуса с датчика движения'),
+            'alarm'=>array('DESCRIPTION'=>'Тревога'),
         ),
         'METHODS'=>array(
             'motionDetected'=>array('DESCRIPTION'=>'Motion Detected'),
